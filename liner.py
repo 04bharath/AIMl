@@ -13,8 +13,8 @@ y_pred = lm.predict(x_test)
 from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 g=y_test.reshape(21,)
 h=y_pred.reshape(21,)
-mydict={"Actual": g,"Pred":h}
-com=pd.DataFrame(mydict)
-com.sample(10)
-
+print(g)
+print(h)
+print(x_train)
+print(x_test)
 
